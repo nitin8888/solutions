@@ -1,9 +1,10 @@
 package multithreading.forkjoin;
 
 import multithreading1.forkjoin.CustomRecursiveTask;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.ForkJoinPool;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 

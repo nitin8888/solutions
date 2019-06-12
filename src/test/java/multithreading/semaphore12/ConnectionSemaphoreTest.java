@@ -1,7 +1,8 @@
 package multithreading.semaphore12;
 
 import multithreading1.semaphore12.ConnectionSemaphore;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 

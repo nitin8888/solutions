@@ -1,4 +1,4 @@
-import org.junit.Test;
+//import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,11 +6,14 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+/*
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+*/
 
 public class MergeSort {
+/*
 
     @Test
     public void testMergeSort() {
@@ -21,6 +24,7 @@ public class MergeSort {
         assertThat(ans, is(expected));
 
     }
+*/
 
     private List<Integer> mergeSort(final List<Integer> nos) {
         int size = nos.size();

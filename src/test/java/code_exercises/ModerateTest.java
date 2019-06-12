@@ -1,11 +1,11 @@
 package code_exercises;
 
 import java8.code_exercises.Moderate;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static java8.code_exercises.Moderate.*;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.Is.*;
+import static org.hamcrest.core.Is.is;
 
 public class ModerateTest {
 

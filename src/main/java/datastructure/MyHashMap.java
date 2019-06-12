@@ -33,7 +33,7 @@ public class MyHashMap<K,V> {
 
     public void put(K key, V value) {
         // Create entry obj
-        Entry<K, V> entry = new Entry<>(key, value);
+        Entry<K, V> entry = new Entry(key, value);
 
         // Get hashcode & bucket location
         int bucketLocation = getBucketLocation(key);

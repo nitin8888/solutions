@@ -2,7 +2,7 @@ package code_exercises;
 
 import java8.code_exercises.ListNode;
 import java8.code_exercises.TreeNode;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static java.util.Arrays.asList;
 import static java8.code_exercises.Easy.*;

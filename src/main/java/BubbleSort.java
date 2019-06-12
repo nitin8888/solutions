@@ -1,8 +1,8 @@
-import org.junit.Test;
+//import org.junit.Test;
 
 import java.util.stream.IntStream;
 
-import static org.junit.Assert.assertArrayEquals;
+//import static org.junit.Assert.assertArrayEquals;
 
 // https://en.wikipedia.org/wiki/Bubble_sort
 // https://www.baeldung.com/java-bubble-sort
@@ -35,7 +35,7 @@ public class BubbleSort {
                     }
                 });
     }
-
+/*
     @Test
     public void testBubble() {
         final int[] numbers = {6, 4, 9, 5, 1, 8};
@@ -44,5 +44,6 @@ public class BubbleSort {
         bubbleSort(numbers);
         assertArrayEquals(expected, numbers);
     }
+    */
 }
 
